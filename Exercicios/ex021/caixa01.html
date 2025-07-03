@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        /* Início do CSS interno */
+        
+        h1 {
+            /* Estilização para todos os elementos h1 */
+            text-align: center; /* Alinha o texto ao centro */
+            background-color: bisque; /* Cor de fundo */
+            height: 300px; /* Altura fixa */
+            width: 300px; /* Largura fixa */
+
+            /* Bordas - propriedades separadas */
+            border-width: 10px; /* Espessura da borda */
+            border-style: solid; /* Estilo da borda (solida) */
+            border-color: darkgray; /* Cor da borda */
+
+            /* Shorthand (forma abreviada) para border:
+               border: 10px solid darkgray; */
+
+            /* Espaçamento interno (padding) - propriedades separadas */
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            /* Shorthand para padding:
+               padding: 10px; (mesmo valor para todos os lados) */
+
+            /* Margens - propriedades separadas */
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+
+            /* Shorthand para margin:
+               margin: 20px 20px 40px 20px; (top, right, bottom, left) */
+
+            /* Outline - contorno visual fora da borda */
+            outline-width: 5px; /* Espessura */
+            outline-style: dashed; /* Estilo tracejado */
+            outline-color: salmon; /* Cor salmão */
+
+            /* Shorthand para outline:
+               outline: 5px dashed salmon; */
+        }
+
+        a {
+            /* Estilização para links (elementos inline) */
+            border-width: 5px; /* Espessura */
+            border-style: solid; /* Estilo */
+            border-color: red; /* Cor vermelha */
+            
+            /* Shorthand para border em links:
+               border: 5px solid red; */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Corpo do documento - conteúdo visível -->
+    <h1>Exemplo de caixa box-level</h1>
+    <!-- Elemento de bloco (box-level) -->
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">mas os links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+    <!-- Parágrafo (box-level) contendo link (inline-level) -->
+</body>
+</html>
